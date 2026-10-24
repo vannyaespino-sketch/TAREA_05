@@ -1,0 +1,23 @@
+.promo-section{
+    background-color: rgb(58, 57, 56);
+    padding: 80PX;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.content-wrapper{
+    max-width: 900px;
+}
+.subtitle{
+    color: rgb(216, 235, 149);
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+
+}
+H1{
+    color: aquamarine;
+}
+P{
+    color: rgb(0, 0, 0);
+}

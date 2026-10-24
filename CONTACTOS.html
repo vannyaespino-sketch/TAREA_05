@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="CONTACTOS.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="cd53c601-377b-4520-b669-51ff1e293b2d">
+        <div class="input-group">
+
+            <h2>Contáctanos</h2>
+            <p class="subtitle">¿Preguntas, inquietudes, comentarios?
+                Tú hablas, nosotros te escuchamos
+                Si tienes alguna pregunta o comentario adicional
+                ¡nos encantaría saberlo!
+            </p>
+
+    
+            <label for="name"></i>Nombre y Apellidos:</label>
+            <input type="text" name="name" id="name" placeholder="ingresa tus nombres" required>
+
+
+            <label for="phone"></i>Celular:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Agrega tus número" required>
+
+
+
+            <label for="email"></i>Correo:</label>
+            <input type="email" name="email" id="email" placeholder="ingresa tus correo" required>
+
+
+
+            <label for="message"></i>Mensaje:</label>
+            <textarea name="message" id="message" rows="4"
+             placeholder="¡Cuéntanos!"></textarea>
+
+             
+                <center><a  href="#">Libro de reclamaciones</a>
+               
+            
+             </center>
+             <button type="submit" class="btn">
+                <span>Enviar</span>
+                
+             </button>
+        </div>    
+        </form>
+    </div>
+</body>
+</html>

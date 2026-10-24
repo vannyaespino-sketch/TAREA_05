@@ -1,0 +1,93 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+   background-color: rgb(179, 179, 179);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    max-width: 450px;
+}
+form{
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+label i{
+    width: 25px;
+}
+input, textarea{
+padding: 12px 15px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);    
+margin-bottom: 15px;
+width: 100%;
+border: 2px solid rgb(255, 255, 255);
+}
+input:focus, textarea:focus{
+    background-color: rgb(245, 244, 175);
+    box-shadow: rgb(227, 247, 198);
+}
+input::placeholder, textarea::placeholder{
+    color: rgb(0, 0, 0);
+}
+.form-links{
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.form-links a{
+    color: gray;
+}
+.form-links a:hover{
+    color: rgb(255, 246, 166);
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(249, 250, 205);
+}
+center{
+    color: white;
+}

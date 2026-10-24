@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    margin: 0px; 
+}
+body{
+    font-family: sans-serif;
+    /*RUTA DE IMAGEN*/
+    background-image: url(../IMG/Sin\ título-1.jpg);
+    /*EVITAR QUE LA IMAGEN SE REPITA*/
+    background-repeat: no-repeat;
+    /*CENTRAR IMAGEN DE FONDO*/
+    background-position: center;
+    /*AJUSTAR LA IMAGEN PARA QUE CUBRA TODO EL ESPACIO*/
+    background-size: none;
+}
+h3{
+    display: none;
+}
+nav{
+    align-items: center;
+    margin: 1px;
+    width: 100%;
+}
+nav ul{
+    background: black;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background: none;
+}
+nav ul li:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    display: inline-block;
+    padding: 4px;
+}
+section{
+    background: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+h2{
+    font-size: 25px;
+    color: black;
+}
+h2:hover{
+    padding: 2px;
+}
+section{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+section ul{
+    width: 100%;
+    list-style: none;
+}
+section ul li{
+    text-align: center;
+    font-family: sans-serif;
+    background: white;
+    display: inline-block;
+    color: black;
+    padding: 1.8%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-animation: 5px;
+    -moz-transition: background .6s;
+
+}
+h4{
+    font-size: 15px;
+    
+}
+section ul li{
+    background: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+section ul li img{
+    background-color: transparent;
+    max-width: 100%;
+}
+section ul li:hover{
+    background: rgb(0, 0, 0);
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+}
+table tr td a img:hover{
+    background-color: transparent;
+    max-width: 100%;
+}
